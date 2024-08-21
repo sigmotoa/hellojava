@@ -8,6 +8,8 @@ System.out.println ("Hello desde Block notas");
 String name;
 System.out.println("Type your name:");
 name = leer.next();
-System.out.println(name);
+System.out.println(name+" type a number");
+int number = leer.nextInt();
+System.out.println(number*2);
 }
 }
